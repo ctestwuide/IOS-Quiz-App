@@ -11,6 +11,10 @@
 		ABDDAD182BA14D2600C198C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDDAD172BA14D2600C198C1 /* ContentView.swift */; };
 		ABDDAD1A2BA14D2700C198C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABDDAD192BA14D2700C198C1 /* Assets.xcassets */; };
 		ABDDAD1D2BA14D2700C198C1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABDDAD1C2BA14D2700C198C1 /* Preview Assets.xcassets */; };
+		ABDDAD272BA14F6800C198C1 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDDAD262BA14F6800C198C1 /* Question.swift */; };
+		ABDDAD292BA14F7B00C198C1 /* QuizType.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDDAD282BA14F7B00C198C1 /* QuizType.swift */; };
+		ABDDAD2B2BA14F9300C198C1 /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDDAD2A2BA14F9300C198C1 /* Quiz.swift */; };
+		ABDDAD2D2BA152F000C198C1 /* QuizViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDDAD2C2BA152F000C198C1 /* QuizViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		ABDDAD172BA14D2600C198C1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ABDDAD192BA14D2700C198C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABDDAD1C2BA14D2700C198C1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ABDDAD262BA14F6800C198C1 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		ABDDAD282BA14F7B00C198C1 /* QuizType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizType.swift; sourceTree = "<group>"; };
+		ABDDAD2A2BA14F9300C198C1 /* Quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz.swift; sourceTree = "<group>"; };
+		ABDDAD2C2BA152F000C198C1 /* QuizViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,9 @@
 			children = (
 				ABDDAD152BA14D2600C198C1 /* IOS_Quiz_AppApp.swift */,
 				ABDDAD172BA14D2600C198C1 /* ContentView.swift */,
+				ABDDAD252BA14F2900C198C1 /* ViewModels */,
+				ABDDAD242BA14F1E00C198C1 /* Views */,
+				ABDDAD232BA14F0E00C198C1 /* Models */,
 				ABDDAD192BA14D2700C198C1 /* Assets.xcassets */,
 				ABDDAD1B2BA14D2700C198C1 /* Preview Content */,
 			);
@@ -65,6 +76,31 @@
 				ABDDAD1C2BA14D2700C198C1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ABDDAD232BA14F0E00C198C1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ABDDAD262BA14F6800C198C1 /* Question.swift */,
+				ABDDAD282BA14F7B00C198C1 /* QuizType.swift */,
+				ABDDAD2A2BA14F9300C198C1 /* Quiz.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ABDDAD242BA14F1E00C198C1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ABDDAD252BA14F2900C198C1 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				ABDDAD2C2BA152F000C198C1 /* QuizViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +173,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABDDAD292BA14F7B00C198C1 /* QuizType.swift in Sources */,
+				ABDDAD2B2BA14F9300C198C1 /* Quiz.swift in Sources */,
+				ABDDAD272BA14F6800C198C1 /* Question.swift in Sources */,
+				ABDDAD2D2BA152F000C198C1 /* QuizViewModel.swift in Sources */,
 				ABDDAD182BA14D2600C198C1 /* ContentView.swift in Sources */,
 				ABDDAD162BA14D2600C198C1 /* IOS_Quiz_AppApp.swift in Sources */,
 			);
