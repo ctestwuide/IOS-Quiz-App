@@ -11,7 +11,7 @@ import SwiftUI
 struct IOS_Quiz_AppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            WelcomeView()
         }
     }
 }

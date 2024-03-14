@@ -7,10 +7,10 @@
 
 import Foundation
 
-enum QuizType: CaseIterable {
-    case pokemon
-    case greekMythology
-    case office
+enum QuizType: String, CaseIterable {
+    case pokemon = "Pokemon"
+    case greekMythology = "Greek Mythology"
+    case office = "The Office"
     
     
 }

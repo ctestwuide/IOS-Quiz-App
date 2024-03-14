@@ -18,6 +18,7 @@
 		ABDDAD2F2BA1622D00C198C1 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDDAD2E2BA1622D00C198C1 /* WelcomeView.swift */; };
 		ABDDAD312BA1623B00C198C1 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDDAD302BA1623B00C198C1 /* QuestionView.swift */; };
 		ABDDAD332BA1624900C198C1 /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDDAD322BA1624900C198C1 /* ScoreView.swift */; };
+		ABDDAD3B2BA1E91200C198C1 /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDDAD3A2BA1E91200C198C1 /* AppColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		ABDDAD2E2BA1622D00C198C1 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		ABDDAD302BA1623B00C198C1 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 		ABDDAD322BA1624900C198C1 /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
+		ABDDAD3A2BA1E91200C198C1 /* AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				ABDDAD2E2BA1622D00C198C1 /* WelcomeView.swift */,
 				ABDDAD302BA1623B00C198C1 /* QuestionView.swift */,
 				ABDDAD322BA1624900C198C1 /* ScoreView.swift */,
+				ABDDAD3A2BA1E91200C198C1 /* AppColor.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABDDAD312BA1623B00C198C1 /* QuestionView.swift in Sources */,
+				ABDDAD3B2BA1E91200C198C1 /* AppColor.swift in Sources */,
 				ABDDAD292BA14F7B00C198C1 /* QuizType.swift in Sources */,
 				ABDDAD332BA1624900C198C1 /* ScoreView.swift in Sources */,
 				ABDDAD2B2BA14F9300C198C1 /* Quiz.swift in Sources */,
